@@ -83,4 +83,7 @@ body {
   #hamburger-menu {
     display: block;
   }
+  #home-buttons a {
+    font-size: 12px;
+  }
 }
