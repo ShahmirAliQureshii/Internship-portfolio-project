@@ -28,8 +28,8 @@ It allowed me to strengthen my frontend development skills, work on real-world U
 
 ## 📬 Contact Me
 - **Email:** developershahmir@gmail.com  
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/shahmir-qureshi-162200252)  
-- **GitHub:** [Your GitHub](https://github.com/ShahmirAliQureshii)
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/shahmir-qureshi-162200252)  
+- **GitHub:** [My GitHub](https://github.com/ShahmirAliQureshii)
 
 
 ## 📷 Screenshots
