@@ -1,0 +1,86 @@
+/* Import FontAwesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+.gradient-text {
+  background: linear-gradient(to right, #6366f1, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill-icon:hover {
+  transform: scale(1.2) rotate(5deg);
+  transition: transform 0.3s ease;
+}
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.certificate-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+#hamburger-menu {
+    display: none;
+  }
+.menuDiv {
+  display: flex;
+  height: 100%;
+  width: 200px;
+  background: #050229;
+  color: #fff;
+  position: fixed;
+  align-items: start;
+  justify-content: start;
+  right: 0;
+  z-index: 99;
+  transform: translateX(210px);
+  transition: all 0.6s ease-in-out;
+}
+#menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; 
+  height: 100%;
+  width: 100%;
+  gap: 50px;
+}
+#menu-list li {
+  margin-left: 0px;
+  color: #fff;
+  width: 100%;
+  border: 1px solid #73737356;
+}
+#menu-list li a {
+  display: block;
+  width: 100%;
+  padding: 12px 0 12px 20px;
+}
+#home-buttons a:hover {
+  background-color: rgba(100, 80, 289, var(--tw-bg-opacity));
+}
+.achive, .certificate-card, .project-card {
+  cursor: pointer;
+}
+.achive:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+@media (max-width: 800px) {
+  #header-list li {
+    display: none;
+  }
+  #hamburger-menu {
+    display: block;
+  }
+}
